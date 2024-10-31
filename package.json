@@ -1,0 +1,16 @@
+{
+  "name": "test-script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nightven/test-script.git",
+  "author": "Виталий Беяр <vitaliy.beyar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "anti-captcha": "^0.0.3",
+    "dotenv": "^16.4.5",
+    "puppeteer": "^23.6.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8",
+    "winston": "^3.15.0"
+  }
+}
