@@ -41,7 +41,7 @@ const logger = winston.createLogger({
       const taskId = await antiCaptcha.createTask({
         type: "NoCaptchaTaskProxyless",
         websiteURL: page.url(),
-        websiteKey: "site_key",  //Так як в мен не відкривалась каптча, я не зміг знайти ключ сайту
+        websiteKey: "site_key",  //Так як в менe не відкривалась каптча, я не зміг знайти ключ сайту
       });
 
       const result = await antiCaptcha.waitForResult(taskId);
