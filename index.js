@@ -33,7 +33,7 @@ const logger = winston.createLogger({
     logger.info("Натиснуто кнопку входу");
 
     
-    const captchaExists = await page.$(".captcha-class");
+    const captchaExists = await page.$(".captcha-class"); // каптчу не застав, тому невідомо який клас
     if (captchaExists) {
       logger.warn("reCAPTCHA виявлено, намагаємося обійти");
 
